@@ -42,7 +42,7 @@ tDis <- HSD.test(a5I,'Dis')
 text(c(1,2,3,4),3200,tDis$groups$M)
 
 boxplot(breaths$e.PP ~ Dis, ylim = c(170,220), 
-ylab = "PP Amplitude (dB re 1 uPa)",axes = F,col = "gray")
+ylab = "PP Amplitude (dB re 1 uPa)",axes = F,col = "blue")
 axis(2)
 tDis <- HSD.test(a4E,'Dis')
 text(c(1,2,3,4),220,tDis$groups$M)
@@ -52,7 +52,7 @@ tDis <- HSD.test(a4I,'Dis')
 text(c(1,2,3,4),220,tDis$groups$M)
 
 boxplot(breaths$e.RMS ~ Dis, ylim = c(150,190), 
-ylab = "RMS Amplitude (dB re 1 uPa)",axes = F,col = "gray")
+ylab = "RMS Amplitude (dB re 1 uPa)",axes = F,col = "blue")
 axis(2)
 tDis <- HSD.test(a3E,'Dis')
 text(c(1,2,3,4),190,tDis$groups$M)
@@ -62,7 +62,7 @@ tDis <- HSD.test(a3I,'Dis')
 text(c(1,2,3,4),190,tDis$groups$M)
 
 boxplot(breaths$e.EFD ~ Dis, ylim = c(85,130), 
-ylab = "Energy Flux Density (Pa^2s)",axes = F,col = "gray")
+ylab = "Energy Flux Density (Pa^2s)",axes = F,col = "blue")
 axis(2)
 tDis <- HSD.test(a2E,'Dis')
 text(c(1,2,3,4),130,tDis$groups$M)
@@ -73,7 +73,7 @@ text(c(1,2,3,4),130,tDis$groups$M)
 
 par(mar = c(6,4,0.5,2))
 boxplot(breaths$e.time_window ~ Dis,ylim = c(0,3.4), 
-ylab = "95% Energy Duration", axes = F,col = "gray")
+ylab = "95% Energy Duration", axes = F,col = "blue")
 axis(1, at = c(0,1,2,3),las = 2,labels = c(" ","Healthy","Diseased"," "))
 axis(2)
 tDis <- HSD.test(a1E,'Dis')
