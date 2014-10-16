@@ -1,5 +1,3 @@
-# TEST this is Julie learning Github wooot
-
 # Disease Plot
 # Load Data
 # SHOULD ONLY COMPARE WITHIN DECK/WATER? 
